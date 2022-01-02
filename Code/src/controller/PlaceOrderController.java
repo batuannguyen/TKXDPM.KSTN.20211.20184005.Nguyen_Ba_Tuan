@@ -48,7 +48,8 @@ public class PlaceOrderController extends BaseController{
             CartMedia cartMedia = (CartMedia) object;
             OrderMedia orderMedia = new OrderMedia(cartMedia.getMedia(), 
                                                    cartMedia.getQuantity(), 
-                                                   cartMedia.getPrice());    
+                                                   cartMedia.getPrice(),
+                                                   cartMedia.getRushOrder());    
             order.getlstOrderMedia().add(orderMedia);
         }
         return order;

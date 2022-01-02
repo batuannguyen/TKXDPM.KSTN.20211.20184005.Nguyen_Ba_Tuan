@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Code/src"/>
+	<classpathentry kind="src" path="Code/test"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="Code/lib/linux/javafx-sdk-15/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="Code/lib/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx-swt.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="Code/lib/win/javafx-sdk-15/lib/javafx.web.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -13,6 +13,7 @@ public class Configs {
 	public static final String GET_VEHICLECODE_URL = "https://ecopark-system-api.herokuapp.com/api/get-vehicle-code/1rjdfasdfas";
 	public static final String PROCESS_TRANSACTION_URL = "https://ecopark-system-api.herokuapp.com/api/card/processTransaction";
 	public static final String RESET_URL = "https://ecopark-system-api.herokuapp.com/api/card/reset";
+	public static final int CONSTANTS = 6000;
 
 	// demo data
 	public static final String POST_DATA = "{"

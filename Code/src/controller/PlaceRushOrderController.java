@@ -49,7 +49,7 @@ public class PlaceRushOrderController extends BaseController {
 		Order order = new Order();
 		for (Object object : Cart.getCart().getListMedia()) {
 			CartMedia cartMedia = (CartMedia) object;
-			OrderMedia orderMedia = new OrderMedia(cartMedia.getMedia(), cartMedia.getQuantity(), cartMedia.getPrice());
+			OrderMedia orderMedia = new OrderMedia(cartMedia.getMedia(), cartMedia.getQuantity(), cartMedia.getPrice(), cartMedia.getRushOrder());
 			order.getlstOrderMedia().add(orderMedia);
 		}
 		return order;
